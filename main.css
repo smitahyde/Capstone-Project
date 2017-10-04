@@ -4,6 +4,11 @@
   background-color: #9900cc;
 }
 
+input {
+    margin-right: 4px;
+    display: block;
+}
+
 .topnav a {
   float: right;
   display: block;
