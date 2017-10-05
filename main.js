@@ -10,15 +10,15 @@ var ctx = document.getElementById('myChart').getContext('2d');
 var myChart = new Chart(ctx, {
   type: 'bar',
   data: {
-    labels: ['<20', '20-34', '34-44', '45-54', '55-64', '65-74', '75-84','>84'],
+    labels: ['15-49', '50-59', '60-69', '70-79', '80-99'],
     datasets: [{
       label: 'Men',
-      data: [0, 5, 10, 15, 20, 25, 30,35,40],
-      backgroundColor: "rgba(153,255,51,0.4)"
+      data: [17.2, 9.3, 5.9, 4.0, 2.1],
+      backgroundColor: "rgba(75,75,192,0.4)"
     }, {
       label: 'Women',
-      data: [0, 5, 10, 15, 20, 25, 30,35,40],
-      backgroundColor: "rgba(255,153,0,0.4)"
+      data: [26.3, 9.8, 6.0, 4.1, 1.9],
+      backgroundColor: "rgba(75,72,192,1)"
     }]
   }
 });

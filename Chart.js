@@ -6863,14 +6863,14 @@ defaults._set('scale', {
 	// grid line settings
 	gridLines: {
 		display: true,
-		color: 'rgba(0, 0, 0, 0.1)',
+		color: 'rgba(75, 75, 192, 0.4)',
 		lineWidth: 1,
 		drawBorder: true,
 		drawOnChartArea: true,
 		drawTicks: true,
 		tickMarkLength: 10,
 		zeroLineWidth: 1,
-		zeroLineColor: 'rgba(0,0,0,0.25)',
+		zeroLineColor: 'rgba(75,72,192,1)',
 		zeroLineBorderDash: [],
 		zeroLineBorderDashOffset: 0.0,
 		offsetGridLines: false,
